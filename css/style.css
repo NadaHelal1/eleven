@@ -1,0 +1,43 @@
+body {
+  background-color: #f5d9d5;
+  font-size: 19px;
+  border: 10px solid white;
+}
+p.ma {
+  font-size: 28px;
+  margin-right: 23%;
+  margin-top: 33%;
+}
+
+p {
+  border: 2px solid black;
+  box-shadow: 0px 0px 35px 20px #fff;
+
+#navbarNav a {
+  color: white;
+}
+
+#mainnav a.nav-link {
+  color: white;
+  padding-top: 19px !important;
+}
+
+#mainnav a.nav-link:hover {
+  color: red;
+  padding-top: 19px !important;
+}
+
+a.navbar-brand a {
+  color: red;
+  font-size: 40px;
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+.navbar-brand {
+  font-size: 50px;
+}
